@@ -2,5 +2,5 @@
 This is my Bioc3301 collection of Cirrus scripts
 
 
-![alt text](https://raw.githubusercontent.comTherealmichaelbaron1/Bioc3301/Screen Shot 2018-05-04 at 23.12.11.png)
+![alt text](https://raw.githubusercontent.comTherealmichaelbaron1/Bioc3301/workflow.png)
 
