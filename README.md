@@ -2,5 +2,5 @@
 This is my Bioc3301 collection of Cirrus scripts
 
 
-![Screenshot] workflow.png
+![img](https://imgur.com/lIGN9Jo)
 
