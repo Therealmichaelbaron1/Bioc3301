@@ -3,5 +3,5 @@ This is my Bioc3301 collection of Cirrus scripts
 
 You will find underneath a workflow representing the order in which I used the scripts, and what for
 
-![img](https://i.imgur.com/xSO9Hik.png)
+![img](https://i.imgur.com/Jux6VRG.png)
 
