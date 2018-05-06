@@ -226,7 +226,7 @@ source activate qiime1
 
 export TMPDIR=~/qiime_tmp
 
-observation_metadata_correlation.py -s pearson -i /lustre/home/d411/zcbtaol/otus/otu_table.biom -m map.txt -c SamplePh -o spearmanmetadataout.txt
+observation_metadata_correlation.py -s pearson -i /lustre/home/d411/zcbtaol/otus/otu_table.biom -m map.txt -c SamplePh -o Pearonsmetadataout.txt
 
 source deactivate
 </details>
