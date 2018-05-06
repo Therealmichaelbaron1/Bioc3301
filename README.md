@@ -63,6 +63,7 @@ source deactivate
 
 <details>
   <summary>Click to expand CORE DIVERSITY ANALYSIS </summary>
+
 # core_diversity_analysis
 
 #!/bin/bash --login
@@ -99,6 +100,7 @@ source deactivate
 
 <details>
   
+
 <details>
   <summary>Click to expand GROUP SIGNIFICANCE</summary>
 
@@ -136,6 +138,7 @@ source deactivate
 
 <details>
 
+
 <details>
   <summary>Click to expand JACKKNIFED BETA DIVERSITY</summary>
 
@@ -172,6 +175,7 @@ jackknifed_beta_diversity.py -i otus/otu_table.biom -m map.tsv -t otus/97_otus.t
 source deactivate
 
 <details>
+
 
 <details>
   <summary>Click to expand OBSERVATION METADATA CORRELATION</summary>
