@@ -14,6 +14,7 @@ ________________________________________________________________________________
 
 ![img](https://i.imgur.com/fvHkZg0.png)
 
+
 <details>
   <summary>Click to expand SPLIT PICK OTU</summary>
 
@@ -66,6 +67,7 @@ time pick_closed_reference_otus.py -i slout/seqs.fna -o otus -a\
 
 source deactivate
 </details>
+______________________________________________________________________________________________________________________________
 
 
 ![img](https://i.imgur.com/a8BvZCR.png)
@@ -107,6 +109,7 @@ core_diversity_analyses.py -o cdout -i otus/otu_table.biom -m 2018_02_smb/map.ts
 
 source deactivate
 </details>
+______________________________________________________________________________________________________________________________
   
 
 ![img](https://i.imgur.com/ZXZikWw.png)
@@ -146,6 +149,7 @@ group_significance.py  -i /lustre/home/d411/zcbtaol/otus/otu_table.biom -m map.t
 
 source deactivate
 </details>
+______________________________________________________________________________________________________________________________
 
 
 ![img](https://i.imgur.com/O4ndbdA.png)
@@ -185,6 +189,7 @@ jackknifed_beta_diversity.py -i otus/otu_table.biom -m map.tsv -t otus/97_otus.t
 
 source deactivate
 </details>
+______________________________________________________________________________________________________________________________
 
 
 ![img](https://i.imgur.com/mK1Xy7E.png)
@@ -224,3 +229,4 @@ observation_metadata_correlation.py -s pearson -i /lustre/home/d411/zcbtaol/otus
 
 source deactivate
 </details>
+______________________________________________________________________________________________________________________________
