@@ -40,8 +40,6 @@ module load miniconda/python2
 
 echo "loading virtualenv"
 
-#NB qiime1 and not qiimel (number one not letter l)
-
 source activate qiime1
 
 #setting temporary directory
@@ -97,8 +95,6 @@ module load miniconda/python2
 
 echo "loading virtualenv"
 
-#NB qiime1 and not qiimel (number one not letter l)
-
 source activate qiime1
 
 #setting temporary directory
@@ -139,8 +135,6 @@ module load miniconda/python2
 
 echo "loading virtualenv"
 
-#NB qiime1 and not qiimel (number one not letter l)
-
 source activate qiime1
 
 #setting temporary directory
@@ -178,8 +172,6 @@ module load miniconda/python2
 #loading virtualenv
 
 echo "loading virtualenv"
-
-#NB qiime1 and not qiimel (number one not letter l)
 
 source activate qiime1
 
@@ -219,8 +211,6 @@ module load miniconda/python2
 
 echo "loading virtualenv"
 
-#NB qiime1 and not qiimel (number one not letter l)
-
 source activate qiime1
 
 #setting temporary directory
@@ -233,7 +223,7 @@ source deactivate
 </details>
 ______________________________________________________________________________________________________________________________
 
-[img](https://i.imgur.com/vpMknwF.png)
+![img](https://i.imgur.com/vpMknwF.png)
 
 <details>
   <summary>Click to expand DIFFERNTIAL ABUNDANCE</summary>
@@ -244,7 +234,7 @@ ________________________________________________________________________________
 
 #PBS -l walltime=01:00:00
 
-#PBS -l select=1:ncpus=4
+#PBS -l select=1:ncpus=8
 
 #PBS -N 2018_diffabund
 
@@ -257,8 +247,6 @@ module load miniconda/python2
 #loading virtualenv
 
 echo "loading virtualenv"
-
-#NB qiime1 and not qiimel (number one not letter l)
 
 source activate qiime1
 
