@@ -7,6 +7,7 @@ You will find underneath a workflow representing the order in which I used the s
 
 
 
+![img] (https://i.imgur.com/DkT3oL6.png)
 
 <details>
   <summary>Click to expand SPLIT PICK OTU</summary>
@@ -61,10 +62,11 @@ time pick_closed_reference_otus.py -i slout/seqs.fna -o otus -a\
 source deactivate
 </details>
 
-
+![img] (https://i.imgur.com/36KTdRf.png)
 
 <details>
   <summary>Click to expand CORE DIVERSITY ANALYSIS </summary>
+
 # core_diversity_analysis
 
 #!/bin/bash --login
@@ -100,7 +102,7 @@ core_diversity_analyses.py -o cdout -i otus/otu_table.biom -m 2018_02_smb/map.ts
 source deactivate
 </details>
   
-
+![img] (https://i.imgur.com/ri1LZ9C.png)
 
 <details>
   <summary>Click to expand GROUP SIGNIFICANCE</summary>
@@ -138,7 +140,7 @@ group_significance.py  -i /lustre/home/d411/zcbtaol/otus/otu_table.biom -m map.t
 source deactivate
 </details>
 
-
+![img] (https://i.imgur.com/Ouad0Xm.png)
 
 <details>
   <summary>Click to expand JACKKNIFED BETA DIVERSITY</summary>
@@ -176,7 +178,7 @@ jackknifed_beta_diversity.py -i otus/otu_table.biom -m map.tsv -t otus/97_otus.t
 source deactivate
 </details>
 
-
+![img] (https://i.imgur.com/mQW6HqR.png)
 
 <details>
   <summary>Click to expand OBSERVATION METADATA CORRELATION</summary>
