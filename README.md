@@ -9,7 +9,7 @@ You will find underneath a workflow representing the order in which I used the s
 
 
 <details>
-  <summary>Click to expand SPLIT PICK OTU<summary>
+  <summary>Click to expand SPLIT PICK OTU</summary>
 
 # Split and Pick OTUS
 
