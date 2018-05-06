@@ -7,6 +7,10 @@ You will find underneath a workflow representing the order in which I used the s
 
 
 
+
+<details>
+  <summary>Click to expand SPLIT AND PICK OTU</summary>
+
 # Split and Pick OTUS
 
 #!/bin/bash --login
@@ -55,8 +59,10 @@ time pick_closed_reference_otus.py -i slout/seqs.fna -o otus -a\
 -O 16
 
 source deactivate
+</details>
 
-
+<details>
+  <summary>Click to expand CORE DIVERSITY ANALYSIS </summary>
 # core_diversity_analysis
 
 #!/bin/bash --login
@@ -91,6 +97,10 @@ core_diversity_analyses.py -o cdout -i otus/otu_table.biom -m 2018_02_smb/map.ts
 
 source deactivate
 
+<details>
+  
+<details>
+  <summary>Click to expand GROUP SIGNIFICANCE</summary>
 
 # group_significance.py
 
@@ -124,6 +134,10 @@ group_significance.py  -i /lustre/home/d411/zcbtaol/otus/otu_table.biom -m map.t
 
 source deactivate
 
+<details>
+
+<details>
+  <summary>Click to expand JACKKNIFED BETA DIVERSITY</summary>
 
 # jackknifed_beta_diversity
 
@@ -157,9 +171,13 @@ jackknifed_beta_diversity.py -i otus/otu_table.biom -m map.tsv -t otus/97_otus.t
 
 source deactivate
 
+<details>
+
+<details>
+  <summary>Click to expand OBSERVATION METADATA CORRELATION</summary>
+
 
 # observation_metadata_correlation
-
 
 #!/bin/bash --login
 
@@ -190,3 +208,5 @@ export TMPDIR=~/qiime_tmp
 observation_metadata_correlation.py -s pearson -i /lustre/home/d411/zcbtaol/otus/otu_table.biom -m map.txt -c SamplePh -o spearmanmetadataout.txt
 
 source deactivate
+
+<details>
