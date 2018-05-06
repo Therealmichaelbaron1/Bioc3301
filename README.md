@@ -228,7 +228,7 @@ ________________________________________________________________________________
 <details>
   <summary>Click to expand DIFFERNTIAL ABUNDANCE</summary>
 
-# Differential Abundance
+# Differential_Abundance
 
 #!/bin/bash --login
 
@@ -253,7 +253,9 @@ source activate qiime1
 #setting temporary directory
 
 export TMPDIR=~/qiime_tmp
+
 differential_abundance.py -i otu_table.biom -o diff_otus.txt -m map.txt -c SamplePh
+
 source deactivate
 
 </details>
