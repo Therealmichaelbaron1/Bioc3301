@@ -5,7 +5,7 @@ You will find underneath a workflow representing the order in which I used the s
 
 You can expand the boxes to find the full script used for a certain task. They should have the same name as in the workflow
 
-![img](https://i.imgur.com/Jux6VRG.png)
+![img](https://i.imgur.com/3AOBkyQ.png)
 
 
 ______________________________________________________________________________________________________________________________
